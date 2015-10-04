@@ -9,18 +9,11 @@
 /* Begin PBXBuildFile section */
 		C3C2EE1C1BC11A8100FF2181 /* clframework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3C2EE1B1BC11A8100FF2181 /* clframework.h */; };
 		C3C2EE1E1BC11A8100FF2181 /* clframework.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EE1D1BC11A8100FF2181 /* clframework.m */; };
-		C3C2EE241BC11A8100FF2181 /* libclframework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C2EE181BC11A8100FF2181 /* libclframework.a */; };
+		C3C2EE3A1BC11AEE00FF2181 /* FileOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EE351BC11AEE00FF2181 /* FileOwner.m */; };
+		C3C2EE3B1BC11AEE00FF2181 /* SubView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EE371BC11AEE00FF2181 /* SubView.m */; };
+		C3C2EE3C1BC11AEE00FF2181 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EE391BC11AEE00FF2181 /* UIView+Ext.m */; };
+		C3C2EE3F1BC11AFE00FF2181 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EE3E1BC11AFE00FF2181 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C3C2EE251BC11A8100FF2181 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3C2EE101BC11A8100FF2181 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3C2EE171BC11A8100FF2181;
-			remoteInfo = clframework;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C3C2EE161BC11A8100FF2181 /* CopyFiles */ = {
@@ -39,8 +32,14 @@
 		C3C2EE181BC11A8100FF2181 /* libclframework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libclframework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C2EE1B1BC11A8100FF2181 /* clframework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clframework.h; sourceTree = "<group>"; };
 		C3C2EE1D1BC11A8100FF2181 /* clframework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clframework.m; sourceTree = "<group>"; };
-		C3C2EE231BC11A8100FF2181 /* clframeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clframeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3C2EE291BC11A8100FF2181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3C2EE341BC11AEE00FF2181 /* FileOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileOwner.h; path = view/FileOwner.h; sourceTree = "<group>"; };
+		C3C2EE351BC11AEE00FF2181 /* FileOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileOwner.m; path = view/FileOwner.m; sourceTree = "<group>"; };
+		C3C2EE361BC11AEE00FF2181 /* SubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubView.h; path = view/SubView.h; sourceTree = "<group>"; };
+		C3C2EE371BC11AEE00FF2181 /* SubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubView.m; path = view/SubView.m; sourceTree = "<group>"; };
+		C3C2EE381BC11AEE00FF2181 /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Ext.h"; path = "view/UIView+Ext.h"; sourceTree = "<group>"; };
+		C3C2EE391BC11AEE00FF2181 /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Ext.m"; path = "view/UIView+Ext.m"; sourceTree = "<group>"; };
+		C3C2EE3D1BC11AFE00FF2181 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = controller/BaseViewController.h; sourceTree = "<group>"; };
+		C3C2EE3E1BC11AFE00FF2181 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = controller/BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,14 +50,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3C2EE201BC11A8100FF2181 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3C2EE241BC11A8100FF2181 /* libclframework.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -66,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				C3C2EE1A1BC11A8100FF2181 /* clframework */,
-				C3C2EE271BC11A8100FF2181 /* clframeworkTests */,
 				C3C2EE191BC11A8100FF2181 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				C3C2EE181BC11A8100FF2181 /* libclframework.a */,
-				C3C2EE231BC11A8100FF2181 /* clframeworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,26 +72,34 @@
 		C3C2EE1A1BC11A8100FF2181 /* clframework */ = {
 			isa = PBXGroup;
 			children = (
+				C3C2EE331BC11AA300FF2181 /* view */,
+				C3C2EE321BC11A9B00FF2181 /* controller */,
 				C3C2EE1B1BC11A8100FF2181 /* clframework.h */,
 				C3C2EE1D1BC11A8100FF2181 /* clframework.m */,
 			);
 			path = clframework;
 			sourceTree = "<group>";
 		};
-		C3C2EE271BC11A8100FF2181 /* clframeworkTests */ = {
+		C3C2EE321BC11A9B00FF2181 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				C3C2EE281BC11A8100FF2181 /* Supporting Files */,
+				C3C2EE3D1BC11AFE00FF2181 /* BaseViewController.h */,
+				C3C2EE3E1BC11AFE00FF2181 /* BaseViewController.m */,
 			);
-			path = clframeworkTests;
+			name = controller;
 			sourceTree = "<group>";
 		};
-		C3C2EE281BC11A8100FF2181 /* Supporting Files */ = {
+		C3C2EE331BC11AA300FF2181 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				C3C2EE291BC11A8100FF2181 /* Info.plist */,
+				C3C2EE341BC11AEE00FF2181 /* FileOwner.h */,
+				C3C2EE351BC11AEE00FF2181 /* FileOwner.m */,
+				C3C2EE361BC11AEE00FF2181 /* SubView.h */,
+				C3C2EE371BC11AEE00FF2181 /* SubView.m */,
+				C3C2EE381BC11AEE00FF2181 /* UIView+Ext.h */,
+				C3C2EE391BC11AEE00FF2181 /* UIView+Ext.m */,
 			);
-			name = "Supporting Files";
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,24 +122,6 @@
 			productReference = C3C2EE181BC11A8100FF2181 /* libclframework.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C3C2EE221BC11A8100FF2181 /* clframeworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3C2EE2F1BC11A8100FF2181 /* Build configuration list for PBXNativeTarget "clframeworkTests" */;
-			buildPhases = (
-				C3C2EE1F1BC11A8100FF2181 /* Sources */,
-				C3C2EE201BC11A8100FF2181 /* Frameworks */,
-				C3C2EE211BC11A8100FF2181 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C3C2EE261BC11A8100FF2181 /* PBXTargetDependency */,
-			);
-			name = clframeworkTests;
-			productName = clframeworkTests;
-			productReference = C3C2EE231BC11A8100FF2181 /* clframeworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,9 +132,6 @@
 				ORGANIZATIONNAME = "Carl Li";
 				TargetAttributes = {
 					C3C2EE171BC11A8100FF2181 = {
-						CreatedOnToolsVersion = 6.3;
-					};
-					C3C2EE221BC11A8100FF2181 = {
 						CreatedOnToolsVersion = 6.3;
 					};
 				};
@@ -173,46 +149,24 @@
 			projectRoot = "";
 			targets = (
 				C3C2EE171BC11A8100FF2181 /* clframework */,
-				C3C2EE221BC11A8100FF2181 /* clframeworkTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		C3C2EE211BC11A8100FF2181 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C3C2EE141BC11A8100FF2181 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3C2EE3C1BC11AEE00FF2181 /* UIView+Ext.m in Sources */,
+				C3C2EE3F1BC11AFE00FF2181 /* BaseViewController.m in Sources */,
 				C3C2EE1E1BC11A8100FF2181 /* clframework.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3C2EE1F1BC11A8100FF2181 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C3C2EE3A1BC11AEE00FF2181 /* FileOwner.m in Sources */,
+				C3C2EE3B1BC11AEE00FF2181 /* SubView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C3C2EE261BC11A8100FF2181 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C3C2EE171BC11A8100FF2181 /* clframework */;
-			targetProxy = C3C2EE251BC11A8100FF2181 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C3C2EE2A1BC11A8100FF2181 /* Debug */ = {
@@ -311,38 +265,6 @@
 			};
 			name = Release;
 		};
-		C3C2EE301BC11A8100FF2181 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = clframeworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		C3C2EE311BC11A8100FF2181 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = clframeworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -360,14 +282,6 @@
 			buildConfigurations = (
 				C3C2EE2D1BC11A8100FF2181 /* Debug */,
 				C3C2EE2E1BC11A8100FF2181 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		C3C2EE2F1BC11A8100FF2181 /* Build configuration list for PBXNativeTarget "clframeworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3C2EE301BC11A8100FF2181 /* Debug */,
-				C3C2EE311BC11A8100FF2181 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
