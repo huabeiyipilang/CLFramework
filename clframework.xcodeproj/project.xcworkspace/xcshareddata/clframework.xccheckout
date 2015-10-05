@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A9F5DB34-16B2-4374-BACD-12523A17C500</string>
+	<key>IDESourceControlProjectName</key>
+	<string>clframework</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>05A7F218AD1304D648241263225D38E4D169A28E</key>
+		<string>https://github.com/huabeiyipilang/CLFramework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>clframework.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>05A7F218AD1304D648241263225D38E4D169A28E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huabeiyipilang/CLFramework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>05A7F218AD1304D648241263225D38E4D169A28E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>05A7F218AD1304D648241263225D38E4D169A28E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>clframework</string>
+		</dict>
+	</array>
+</dict>
+</plist>
