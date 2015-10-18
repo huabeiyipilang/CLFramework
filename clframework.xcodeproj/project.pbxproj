@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C31ED01A1BD32CA2002B1CC4 /* NSMutableDictionary+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = C31ED0191BD32CA2002B1CC4 /* NSMutableDictionary+Ext.m */; };
 		C3C2EE1C1BC11A8100FF2181 /* clframework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3C2EE1B1BC11A8100FF2181 /* clframework.h */; };
 		C3C2EE1E1BC11A8100FF2181 /* clframework.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EE1D1BC11A8100FF2181 /* clframework.m */; };
 		C3C2EE3A1BC11AEE00FF2181 /* FileOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EE351BC11AEE00FF2181 /* FileOwner.m */; };
@@ -33,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C31ED0181BD32CA2002B1CC4 /* NSMutableDictionary+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+Ext.h"; path = "category/NSMutableDictionary+Ext.h"; sourceTree = "<group>"; };
+		C31ED0191BD32CA2002B1CC4 /* NSMutableDictionary+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+Ext.m"; path = "category/NSMutableDictionary+Ext.m"; sourceTree = "<group>"; };
 		C3C2EE181BC11A8100FF2181 /* libclframework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libclframework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C2EE1B1BC11A8100FF2181 /* clframework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clframework.h; sourceTree = "<group>"; };
 		C3C2EE1D1BC11A8100FF2181 /* clframework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clframework.m; sourceTree = "<group>"; };
@@ -65,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C31ED0141BD32BD1002B1CC4 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				C31ED0181BD32CA2002B1CC4 /* NSMutableDictionary+Ext.h */,
+				C31ED0191BD32CA2002B1CC4 /* NSMutableDictionary+Ext.m */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
 		C3C2EE0F1BC11A8100FF2181 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +96,7 @@
 		C3C2EE1A1BC11A8100FF2181 /* clframework */ = {
 			isa = PBXGroup;
 			children = (
+				C31ED0141BD32BD1002B1CC4 /* category */,
 				C3D10C6D1BC21190008D0112 /* utils */,
 				C3C2EE331BC11AA300FF2181 /* view */,
 				C3C2EE321BC11A9B00FF2181 /* controller */,
@@ -189,6 +202,7 @@
 				C3C2EE3C1BC11AEE00FF2181 /* UIView+Ext.m in Sources */,
 				C3C2EE3F1BC11AFE00FF2181 /* BaseViewController.m in Sources */,
 				C3D10C781BC21198008D0112 /* UIColor+HexString.m in Sources */,
+				C31ED01A1BD32CA2002B1CC4 /* NSMutableDictionary+Ext.m in Sources */,
 				C3C2EE1E1BC11A8100FF2181 /* clframework.m in Sources */,
 				C3C2EE3A1BC11AEE00FF2181 /* FileOwner.m in Sources */,
 				C3D10C791BC21198008D0112 /* UIView+FrameMethods.m in Sources */,
