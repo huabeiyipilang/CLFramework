@@ -14,7 +14,6 @@
 		C3C2EE3B1BC11AEE00FF2181 /* SubView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EE371BC11AEE00FF2181 /* SubView.m */; };
 		C3C2EE3C1BC11AEE00FF2181 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EE391BC11AEE00FF2181 /* UIView+Ext.m */; };
 		C3C2EE3F1BC11AFE00FF2181 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EE3E1BC11AFE00FF2181 /* BaseViewController.m */; };
-		C3D10C761BC21198008D0112 /* DXPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D10C6F1BC21198008D0112 /* DXPopover.m */; };
 		C3D10C771BC21198008D0112 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D10C711BC21198008D0112 /* Logger.m */; };
 		C3D10C781BC21198008D0112 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D10C731BC21198008D0112 /* UIColor+HexString.m */; };
 		C3D10C791BC21198008D0112 /* UIView+FrameMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D10C751BC21198008D0112 /* UIView+FrameMethods.m */; };
@@ -47,8 +46,6 @@
 		C3C2EE391BC11AEE00FF2181 /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Ext.m"; path = "view/UIView+Ext.m"; sourceTree = "<group>"; };
 		C3C2EE3D1BC11AFE00FF2181 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = controller/BaseViewController.h; sourceTree = "<group>"; };
 		C3C2EE3E1BC11AFE00FF2181 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = controller/BaseViewController.m; sourceTree = "<group>"; };
-		C3D10C6E1BC21198008D0112 /* DXPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DXPopover.h; path = utils/DXPopover.h; sourceTree = "<group>"; };
-		C3D10C6F1BC21198008D0112 /* DXPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DXPopover.m; path = utils/DXPopover.m; sourceTree = "<group>"; };
 		C3D10C701BC21198008D0112 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = utils/Logger.h; sourceTree = "<group>"; };
 		C3D10C711BC21198008D0112 /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Logger.m; path = utils/Logger.m; sourceTree = "<group>"; };
 		C3D10C721BC21198008D0112 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "utils/UIColor+HexString.h"; sourceTree = "<group>"; };
@@ -131,8 +128,6 @@
 		C3D10C6D1BC21190008D0112 /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				C3D10C6E1BC21198008D0112 /* DXPopover.h */,
-				C3D10C6F1BC21198008D0112 /* DXPopover.m */,
 				C3D10C701BC21198008D0112 /* Logger.h */,
 				C3D10C711BC21198008D0112 /* Logger.m */,
 				C3D10C721BC21198008D0112 /* UIColor+HexString.h */,
@@ -208,7 +203,6 @@
 				C3D10C791BC21198008D0112 /* UIView+FrameMethods.m in Sources */,
 				C3C2EE3B1BC11AEE00FF2181 /* SubView.m in Sources */,
 				C3D10C771BC21198008D0112 /* Logger.m in Sources */,
-				C3D10C761BC21198008D0112 /* DXPopover.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
