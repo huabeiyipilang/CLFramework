@@ -17,6 +17,7 @@
 		C3D10C771BC21198008D0112 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D10C711BC21198008D0112 /* Logger.m */; };
 		C3D10C781BC21198008D0112 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D10C731BC21198008D0112 /* UIColor+HexString.m */; };
 		C3D10C791BC21198008D0112 /* UIView+FrameMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D10C751BC21198008D0112 /* UIView+FrameMethods.m */; };
+		C3FBC49A1BEF851C00999C50 /* TextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FBC4991BEF851C00999C50 /* TextUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,8 @@
 		C3D10C731BC21198008D0112 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexString.m"; path = "utils/UIColor+HexString.m"; sourceTree = "<group>"; };
 		C3D10C741BC21198008D0112 /* UIView+FrameMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FrameMethods.h"; path = "utils/UIView+FrameMethods.h"; sourceTree = "<group>"; };
 		C3D10C751BC21198008D0112 /* UIView+FrameMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FrameMethods.m"; path = "utils/UIView+FrameMethods.m"; sourceTree = "<group>"; };
+		C3FBC4981BEF851C00999C50 /* TextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextUtils.h; path = utils/TextUtils.h; sourceTree = "<group>"; };
+		C3FBC4991BEF851C00999C50 /* TextUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextUtils.m; path = utils/TextUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				C3D10C731BC21198008D0112 /* UIColor+HexString.m */,
 				C3D10C741BC21198008D0112 /* UIView+FrameMethods.h */,
 				C3D10C751BC21198008D0112 /* UIView+FrameMethods.m */,
+				C3FBC4981BEF851C00999C50 /* TextUtils.h */,
+				C3FBC4991BEF851C00999C50 /* TextUtils.m */,
 			);
 			name = utils;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 				C31ED01A1BD32CA2002B1CC4 /* NSMutableDictionary+Ext.m in Sources */,
 				C3C2EE1E1BC11A8100FF2181 /* clframework.m in Sources */,
 				C3C2EE3A1BC11AEE00FF2181 /* FileOwner.m in Sources */,
+				C3FBC49A1BEF851C00999C50 /* TextUtils.m in Sources */,
 				C3D10C791BC21198008D0112 /* UIView+FrameMethods.m in Sources */,
 				C3C2EE3B1BC11AEE00FF2181 /* SubView.m in Sources */,
 				C3D10C771BC21198008D0112 /* Logger.m in Sources */,
